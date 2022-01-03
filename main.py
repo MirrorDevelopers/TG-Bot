@@ -7,7 +7,7 @@ bot = telebot.TeleBot("5088301449:AAEYbFdLo1iZwg7tfNDxHM1cbrNojA-drCE")
 
 @bot.message_handler(commands=["start"])
 def send_welcome(message):
-  bot.reply_to(message, "Hello! I'm Sk Chat Bot [🚀Update](buttonurl://https://t.me/SlapTap)")
+  bot.reply_to(message, "Hello! I'm Garry.[supunma <sz/>](https://t.me/szteambots)")
 
 
 @bot.message_handler(commands=["how"])
